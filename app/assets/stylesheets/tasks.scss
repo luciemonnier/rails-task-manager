@@ -1,0 +1,43 @@
+ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+li {
+  margin: 10px;
+}// Place all the styles related to the tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.title {
+  margin-top: 20px;
+}
+
+.btn {
+  margin-bottom: 20px;
+  width: 100px;
+}
+
+.label {
+  font-weight: bolder;
+  margin-bottom: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.checkbox {
+  display: flex;
+}
+
+.box {
+  margin: 5px;
+}
+
+.footer {
+  padding-top: 20px;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.2)
+}
